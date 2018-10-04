@@ -11,8 +11,7 @@ This sample demonstrates how you can use device credentials (PIN, Pattern, Passw
 to authenticate the user before they are trying to complete some actions.
 
 First you need to create a symmetric key in the Android Key Store using [KeyGenerator][1]
-which can be only be used after the user has authenticated after the user is authenticated
-with their device credentials and pass [KeyGenParameterSpec][2].
+which can only be used after the user has authenticated with their device credentials and pass [KeyGenParameterSpec][2].
 
 By setting an integer value to the
 [KeyGenParameterSpec.Builder.setUserAuthenticationValidityDurationSeconds][3], you can consider the
